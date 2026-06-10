@@ -1,0 +1,10 @@
+{
+  "watchFolder": "C:\\Watch",
+  "debounceMs": 2000,
+  "fileExtensions": [".mp4", ".mov", ".mxf", ".r3d", ".braw", ".ari", ".arri", ".avi", ".mkv", ".mts", ".m2ts", ".mpg", ".mpeg", ".wmv"],
+  "appDisplayName": "Adobe Media Encoder",
+  "launchCommand": "C:\\Program Files\\Adobe\\Adobe Media Encoder 2024\\Adobe Media Encoder.exe",
+  "launchArgs": [],
+  "processPattern": "Adobe Media Encoder.exe",
+  "logFile": "C:\\Watch\\watcher.log"
+}

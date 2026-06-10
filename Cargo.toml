@@ -1,0 +1,19 @@
+[package]
+name = "ame-watcher"
+version = "1.0.0"
+edition = "2021"
+
+# Build with --features console to keep stdout visible (useful during development).
+# Default release build hides the console window (tray-only).
+[features]
+console = []
+
+[dependencies]
+notify-debouncer-mini = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["clock"] }
+
+[target.'cfg(windows)'.dependencies]
+tray-icon = "0.19"
+winit = "0.30"
