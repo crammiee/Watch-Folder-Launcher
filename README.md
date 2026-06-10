@@ -158,7 +158,15 @@ To keep a console window visible (useful while configuring):
 cargo build --release --features console
 ```
 
-For development/testing on WSL without the tray:
+### Cross-compile from WSL (produces a Windows .exe)
+
+```bash
+./build-windows.sh
+```
+
+Output is placed in `dist/` — ready to upload to GitHub Releases.
+
+### Development/testing on WSL
 
 ```bash
 cargo build
